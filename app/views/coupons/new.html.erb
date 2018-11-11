@@ -1,0 +1,8 @@
+<h1>Coupon Form</h1>
+ <%= form_tag coupons_path do %>
+ <input id="coupon[store]" name="store" type="text">
+ <input id="coupon[coupon_code]" name="coupon_code" type="text">
+ <%=  submit_tag "Submit Coupon"%>
+<% end %>
+  
+2  app/views/coupons/show.html.erb
